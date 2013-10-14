@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75EDA8A2180C2E5600D234FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EDA8A1180C2E5600D234FF /* Cocoa.framework */; };
+		75EDA8AC180C2E5600D234FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75EDA8AA180C2E5600D234FF /* InfoPlist.strings */; };
+		75EDA8AE180C2E5600D234FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EDA8AD180C2E5600D234FF /* main.m */; };
+		75EDA8B2180C2E5600D234FF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 75EDA8B0180C2E5600D234FF /* Credits.rtf */; };
+		75EDA8B5180C2E5600D234FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EDA8B4180C2E5600D234FF /* AppDelegate.m */; };
+		75EDA8B8180C2E5600D234FF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75EDA8B6180C2E5600D234FF /* MainMenu.xib */; };
+		75EDA8BA180C2E5600D234FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75EDA8B9180C2E5600D234FF /* Images.xcassets */; };
+		75EDA8C1180C2E5600D234FF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EDA8C0180C2E5600D234FF /* XCTest.framework */; };
+		75EDA8C2180C2E5600D234FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EDA8A1180C2E5600D234FF /* Cocoa.framework */; };
+		75EDA8CA180C2E5600D234FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75EDA8C8180C2E5600D234FF /* InfoPlist.strings */; };
+		75EDA8CC180C2E5600D234FF /* TestWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EDA8CB180C2E5600D234FF /* TestWebViewTests.m */; };
+		75EDA8D6180C2EBA00D234FF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EDA8D5180C2EBA00D234FF /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75EDA8C3180C2E5600D234FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75EDA896180C2E5600D234FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75EDA89D180C2E5600D234FF;
+			remoteInfo = TestWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75EDA89E180C2E5600D234FF /* TestWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EDA8A1180C2E5600D234FF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		75EDA8A4180C2E5600D234FF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		75EDA8A5180C2E5600D234FF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		75EDA8A6180C2E5600D234FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75EDA8A9180C2E5600D234FF /* TestWebView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestWebView-Info.plist"; sourceTree = "<group>"; };
+		75EDA8AB180C2E5600D234FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75EDA8AD180C2E5600D234FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75EDA8AF180C2E5600D234FF /* TestWebView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestWebView-Prefix.pch"; sourceTree = "<group>"; };
+		75EDA8B1180C2E5600D234FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		75EDA8B3180C2E5600D234FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75EDA8B4180C2E5600D234FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75EDA8B7180C2E5600D234FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		75EDA8B9180C2E5600D234FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75EDA8BF180C2E5600D234FF /* TestWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EDA8C0180C2E5600D234FF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		75EDA8C7180C2E5600D234FF /* TestWebViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestWebViewTests-Info.plist"; sourceTree = "<group>"; };
+		75EDA8C9180C2E5600D234FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75EDA8CB180C2E5600D234FF /* TestWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestWebViewTests.m; sourceTree = "<group>"; };
+		75EDA8D5180C2EBA00D234FF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75EDA89B180C2E5600D234FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EDA8D6180C2EBA00D234FF /* WebKit.framework in Frameworks */,
+				75EDA8A2180C2E5600D234FF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EDA8BC180C2E5600D234FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EDA8C2180C2E5600D234FF /* Cocoa.framework in Frameworks */,
+				75EDA8C1180C2E5600D234FF /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75EDA895180C2E5600D234FF = {
+			isa = PBXGroup;
+			children = (
+				75EDA8A7180C2E5600D234FF /* TestWebView */,
+				75EDA8C5180C2E5600D234FF /* TestWebViewTests */,
+				75EDA8A0180C2E5600D234FF /* Frameworks */,
+				75EDA89F180C2E5600D234FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75EDA89F180C2E5600D234FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75EDA89E180C2E5600D234FF /* TestWebView.app */,
+				75EDA8BF180C2E5600D234FF /* TestWebViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75EDA8A0180C2E5600D234FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75EDA8D5180C2EBA00D234FF /* WebKit.framework */,
+				75EDA8A1180C2E5600D234FF /* Cocoa.framework */,
+				75EDA8C0180C2E5600D234FF /* XCTest.framework */,
+				75EDA8A3180C2E5600D234FF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75EDA8A3180C2E5600D234FF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75EDA8A4180C2E5600D234FF /* AppKit.framework */,
+				75EDA8A5180C2E5600D234FF /* CoreData.framework */,
+				75EDA8A6180C2E5600D234FF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		75EDA8A7180C2E5600D234FF /* TestWebView */ = {
+			isa = PBXGroup;
+			children = (
+				75EDA8B3180C2E5600D234FF /* AppDelegate.h */,
+				75EDA8B4180C2E5600D234FF /* AppDelegate.m */,
+				75EDA8B6180C2E5600D234FF /* MainMenu.xib */,
+				75EDA8B9180C2E5600D234FF /* Images.xcassets */,
+				75EDA8A8180C2E5600D234FF /* Supporting Files */,
+			);
+			path = TestWebView;
+			sourceTree = "<group>";
+		};
+		75EDA8A8180C2E5600D234FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75EDA8A9180C2E5600D234FF /* TestWebView-Info.plist */,
+				75EDA8AA180C2E5600D234FF /* InfoPlist.strings */,
+				75EDA8AD180C2E5600D234FF /* main.m */,
+				75EDA8AF180C2E5600D234FF /* TestWebView-Prefix.pch */,
+				75EDA8B0180C2E5600D234FF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75EDA8C5180C2E5600D234FF /* TestWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				75EDA8CB180C2E5600D234FF /* TestWebViewTests.m */,
+				75EDA8C6180C2E5600D234FF /* Supporting Files */,
+			);
+			path = TestWebViewTests;
+			sourceTree = "<group>";
+		};
+		75EDA8C6180C2E5600D234FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75EDA8C7180C2E5600D234FF /* TestWebViewTests-Info.plist */,
+				75EDA8C8180C2E5600D234FF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75EDA89D180C2E5600D234FF /* TestWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EDA8CF180C2E5600D234FF /* Build configuration list for PBXNativeTarget "TestWebView" */;
+			buildPhases = (
+				75EDA89A180C2E5600D234FF /* Sources */,
+				75EDA89B180C2E5600D234FF /* Frameworks */,
+				75EDA89C180C2E5600D234FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestWebView;
+			productName = TestWebView;
+			productReference = 75EDA89E180C2E5600D234FF /* TestWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75EDA8BE180C2E5600D234FF /* TestWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EDA8D2180C2E5600D234FF /* Build configuration list for PBXNativeTarget "TestWebViewTests" */;
+			buildPhases = (
+				75EDA8BB180C2E5600D234FF /* Sources */,
+				75EDA8BC180C2E5600D234FF /* Frameworks */,
+				75EDA8BD180C2E5600D234FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75EDA8C4180C2E5600D234FF /* PBXTargetDependency */,
+			);
+			name = TestWebViewTests;
+			productName = TestWebViewTests;
+			productReference = 75EDA8BF180C2E5600D234FF /* TestWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75EDA896180C2E5600D234FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = jozefdransfield;
+				TargetAttributes = {
+					75EDA8BE180C2E5600D234FF = {
+						TestTargetID = 75EDA89D180C2E5600D234FF;
+					};
+				};
+			};
+			buildConfigurationList = 75EDA899180C2E5600D234FF /* Build configuration list for PBXProject "TestWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75EDA895180C2E5600D234FF;
+			productRefGroup = 75EDA89F180C2E5600D234FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75EDA89D180C2E5600D234FF /* TestWebView */,
+				75EDA8BE180C2E5600D234FF /* TestWebViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75EDA89C180C2E5600D234FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EDA8AC180C2E5600D234FF /* InfoPlist.strings in Resources */,
+				75EDA8BA180C2E5600D234FF /* Images.xcassets in Resources */,
+				75EDA8B2180C2E5600D234FF /* Credits.rtf in Resources */,
+				75EDA8B8180C2E5600D234FF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EDA8BD180C2E5600D234FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EDA8CA180C2E5600D234FF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75EDA89A180C2E5600D234FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EDA8B5180C2E5600D234FF /* AppDelegate.m in Sources */,
+				75EDA8AE180C2E5600D234FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EDA8BB180C2E5600D234FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75EDA8CC180C2E5600D234FF /* TestWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75EDA8C4180C2E5600D234FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75EDA89D180C2E5600D234FF /* TestWebView */;
+			targetProxy = 75EDA8C3180C2E5600D234FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75EDA8AA180C2E5600D234FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75EDA8AB180C2E5600D234FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75EDA8B0180C2E5600D234FF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75EDA8B1180C2E5600D234FF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		75EDA8B6180C2E5600D234FF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75EDA8B7180C2E5600D234FF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		75EDA8C8180C2E5600D234FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75EDA8C9180C2E5600D234FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75EDA8CD180C2E5600D234FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		75EDA8CE180C2E5600D234FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		75EDA8D0180C2E5600D234FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestWebView/TestWebView-Prefix.pch";
+				INFOPLIST_FILE = "TestWebView/TestWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75EDA8D1180C2E5600D234FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestWebView/TestWebView-Prefix.pch";
+				INFOPLIST_FILE = "TestWebView/TestWebView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75EDA8D3180C2E5600D234FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestWebView.app/Contents/MacOS/TestWebView";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestWebView/TestWebView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestWebViewTests/TestWebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		75EDA8D4180C2E5600D234FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestWebView.app/Contents/MacOS/TestWebView";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestWebView/TestWebView-Prefix.pch";
+				INFOPLIST_FILE = "TestWebViewTests/TestWebViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75EDA899180C2E5600D234FF /* Build configuration list for PBXProject "TestWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EDA8CD180C2E5600D234FF /* Debug */,
+				75EDA8CE180C2E5600D234FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EDA8CF180C2E5600D234FF /* Build configuration list for PBXNativeTarget "TestWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EDA8D0180C2E5600D234FF /* Debug */,
+				75EDA8D1180C2E5600D234FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75EDA8D2180C2E5600D234FF /* Build configuration list for PBXNativeTarget "TestWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EDA8D3180C2E5600D234FF /* Debug */,
+				75EDA8D4180C2E5600D234FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75EDA896180C2E5600D234FF /* Project object */;
+}
